@@ -1,0 +1,2 @@
+# Konspekt_Nikita_Kuznetsov_IKTpv25_2
+minu kontspekt

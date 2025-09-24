@@ -136,7 +136,47 @@
             {
                 Console.WriteLine("Sellist puuvilja ma ei tunne");
             }
-            double pi_ = Math.PI;
+            //4 parool, if ja string andmetüüp
+            Console.WriteLine("Prograami edasiseks tööks sisesta palun parool");
+            string password = Console.ReadLine();
+            if (password == "seva hyesos")
+            {
+                Console.WriteLine("parool on saebis!!!");
+            }
+            else if (password == "salam" || password == "370")
+            {
+                Console.WriteLine("Parool on sobimatu, palun mingi muu");
+            }
+            else
+            {
+                Console.WriteLine("Parool on hueta go away sipsin");
+            }
+
+            //5 varvitustus
+            Console.WriteLine("Milline varv sulle koige rohkem meeldib?:");
+            string favouriteColour= Console.ReadLine();
+            if (favouriteColour == "punane")
+            {
+                Console.BackgroundColor = ConsoleColor.Red;
+            }
+            if (favouriteColour == "oranz")
+            {
+                Console.WriteLine("sosi");
+            }
+            if (favouriteColour == "kollane")
+            {
+                Console.BackgroundColor = ConsoleColor.Yellow;
+            }
+            if (favouriteColour == "roheline")
+            {
+                Console.BackgroundColor = ConsoleColor.Green;
+            }
+            else
+            {
+                Console.WriteLine("net varvi go avay");
+            }
+            Console.WriteLine("Varv muudetud!");
+
         }
     }
 }

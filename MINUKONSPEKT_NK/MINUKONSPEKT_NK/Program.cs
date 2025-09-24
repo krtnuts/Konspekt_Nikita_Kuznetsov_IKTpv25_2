@@ -6,6 +6,7 @@
         {
             //Console.WriteLine("Hello, World!");
 
+
             //Muutujad, Matemaakilised tehted, IF, ELSE IF ja ELSE:
 
             //1. tusun njo921 2088wg
@@ -77,6 +78,7 @@
             else
             {
                 Console.WriteLine("pikkust ei tunta");
+
             }
         }
     }
